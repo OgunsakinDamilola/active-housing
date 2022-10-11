@@ -1,0 +1,23 @@
+{
+    "name": "ogunsakindamilola/active-housing",
+    "description": "Active Housing",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "7.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ogunsakindamilola\\ActiveHousing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ogunsakin Damilola",
+            "email": "33791201+OgunsakinDamilola@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
