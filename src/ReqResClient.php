@@ -58,6 +58,7 @@ class ReqResClient
     private function buildSuccessResponseData()
     {
         $responseBody = json_decode($this->response->getBody(), true);
+        unset($responseBody['support']);
         $metaData = $responseBody;
         unset($metaData['data']);
         return [
